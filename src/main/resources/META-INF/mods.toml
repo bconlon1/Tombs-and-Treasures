@@ -1,0 +1,34 @@
+modLoader = "javafml"
+loaderVersion = "[36,)"
+license= "All rights reserved" # TBA
+
+[[mods]]
+modId = "tombsandtreasures"
+version = "${file.jarVersion}"
+displayName = "Tombs and Treasures"
+#displayURL = ""
+#logoFile = ""
+#credits = ""
+authors = "bconlon"
+description = '''
+A mod about adapting Minecraft: Dungeons' content into Minecraft.
+'''
+
+[[dependencies.tombsandtreasures]]
+modId = "forge"
+mandatory = true
+versionRange = "[36,)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.tombsandtreasures]]
+modId = "curios"
+mandatory = true
+versionRange = "[1.16.5-,)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.tombsandtreasures]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.16.5,1.17]"
+ordering = "NONE"
+side = "BOTH"

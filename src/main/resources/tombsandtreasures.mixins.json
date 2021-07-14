@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.bconlon.tombsandtreasures.core.mixin",
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "tombsandtreasures.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
