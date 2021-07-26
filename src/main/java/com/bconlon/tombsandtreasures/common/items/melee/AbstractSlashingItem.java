@@ -9,12 +9,12 @@ import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.SwordItem;
 
-public class MeleeSlashingItem extends SwordItem
+public abstract class AbstractSlashingItem extends SwordItem
 {
     private final float attackDamage;
     private final Multimap<Attribute, AttributeModifier> defaultModifiers;
 
-    public MeleeSlashingItem(IItemTier tier, float damage, float speed, Properties properties) {
+    public AbstractSlashingItem(IItemTier tier, float damage, float speed, Properties properties) {
         super(tier, 0, 0.0F, properties);
         this.attackDamage = damage + tier.getAttackDamageBonus();
         ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();

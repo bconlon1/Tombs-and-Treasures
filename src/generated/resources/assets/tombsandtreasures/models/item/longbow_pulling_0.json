@@ -2,16 +2,16 @@
   "parent": "forge:item/default",
   "loader": "forge:separate-perspective",
   "base": {
-    "parent": "tombsandtreasures:item/melee_handheld_double",
+    "parent": "tombsandtreasures:item/longbow_base",
     "textures": {
-      "layer0": "tombsandtreasures:item/weapon/melee/glaive/held/iron_glaive_held"
+      "layer0": "tombsandtreasures:item/weapon/ranged/longbow/held/longbow_pulling_0_held"
     }
   },
   "perspectives": {
     "gui": {
       "parent": "minecraft:item/generated",
       "textures": {
-        "layer0": "tombsandtreasures:item/weapon/melee/glaive/iron_glaive"
+        "layer0": "tombsandtreasures:item/weapon/ranged/longbow/longbow_pulling_0"
       }
     }
   }

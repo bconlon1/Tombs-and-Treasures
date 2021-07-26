@@ -1,6 +1,6 @@
 package com.bconlon.tombsandtreasures.common.items.melee.glaive;
 
-import com.bconlon.tombsandtreasures.common.items.melee.MeleeSlashingItem;
+import com.bconlon.tombsandtreasures.common.items.melee.AbstractSlashingItem;
 import com.bconlon.tombsandtreasures.common.items.util.IReach;
 import com.google.common.collect.ImmutableMultimap;
 import com.google.common.collect.Multimap;
@@ -10,7 +10,7 @@ import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.IItemTier;
 import net.minecraftforge.common.ForgeMod;
 
-public class GlaiveItem extends MeleeSlashingItem implements IReach
+public class GlaiveItem extends AbstractSlashingItem implements IReach
 {
     private final float reach;
 

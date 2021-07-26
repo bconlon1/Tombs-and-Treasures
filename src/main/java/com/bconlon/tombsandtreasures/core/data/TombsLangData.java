@@ -24,6 +24,7 @@ public class TombsLangData extends LanguageProvider
     @Override
     protected void addTranslations() {
         addItem(TombsItems.IRON_GLAIVE, "Iron Glaive");
+        addItem(TombsItems.LONGBOW, "Longbow");
 
         addItemGroup(TombsItemGroups.TOMBS_COMBAT, "Tombs and Treasures Combat");
 

@@ -19,5 +19,7 @@ public class TombsItemModelData extends TombsItemModelProvider
     @Override
     protected void registerModels() {
         separatePerspectiveItem(TombsItems.IRON_GLAIVE, "weapon/melee/glaive/");
+
+        longbowItem(TombsItems.LONGBOW, "weapon/ranged/longbow/");
     }
 }

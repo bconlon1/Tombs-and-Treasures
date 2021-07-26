@@ -15,7 +15,7 @@ public class TombsClient
 
     public static void clientSetup(FMLClientSetupEvent event) {
         event.enqueueWork(() -> {
-
+            PropertiesCreator.setupItemProperties();
         });
     }
 

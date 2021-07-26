@@ -22,7 +22,7 @@ import top.theillusivec4.curios.api.SlotTypeMessage;
 public class TombsAndTreasures
 {
     public static final String MODID = "tombsandtreasures";
-    private static final Logger LOGGER = LogManager.getLogger();
+    public static final Logger LOGGER = LogManager.getLogger();
 
     public TombsAndTreasures() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
